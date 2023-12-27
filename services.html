@@ -1,103 +1,146 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Services</title>
-    <link rel="stylesheet" href="assets/css/services.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <div class="pricing-cards">
-        <div class="pricing-card">
-          <div class="card-type">Basic</div>
-          <h1 class="card-price">$100</h1>
-          <!-- <h3 class="month">/ Month</h3> -->
-          <div class="list">
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Assessment of Financial Situation</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Identify short- and long-term goals</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Introduction to Shariah-compliant products</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>ETF-based Portfolio Construction</span>
-            </div>
-          </div>
-          <!-- <button type="button" class="card-btn">Buy Now</button> -->
-          <div class="card-bottom">Join Us!</div>
-        </div>
-        
-        <div class="pricing-card">
-          <div class="card-type">Standard</div>
-          <h1 class="card-price">$300</h1>
-          <!-- <h3 class="month">/ Month</h3> -->
-          <div class="list">
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Basic package +</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Top portfolio holdings analysis</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Portfolio risk analysis</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Retirement income and cash flow projection</span>
-            </div>
-          </div>
-          <!-- <button type="button" class="card-btn">Buy Now</button> -->
-          <div class="card-bottom">Join Us!</div>
-        </div>
-        
-        <div class="pricing-card">
-          <div class="card-type">Premium</div>
-          <h1 class="card-price">$500</h1>
-          <!-- <h3 class="month">/ Month</h3> -->
-          <div class="list">
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Standard package +</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Glide Path portfolio options</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Tax-efficient investment strategies</span>
-            </div>
-            <div class="list-item">
-              <i class="fa-solid fa-check"></i>
-              <span>Ad-hoc projects and reports</span>
-            </div>
-          </div>
-          <!-- <button type="button" class="card-btn">Buy Now</button> -->
-          <div class="card-bottom">Join Us!</div>
-        </div>
+<div class="flex lg:flex-row flex-column lg:justify-content-center align-items-center lg:p-8 p-4 font-sans text-white bg-bluegray-900 min-h-screen">
+  
+  <div class="lg:w-23rem w-full border-2 lg:border-right-none border-bluegray-800 p-5">
+    <div class="pb-3 mb-4 border-bottom-1 border-bluegray-800">
+      <div class="text-xs text-bluegray-400 mb-2">BASIC</div>
+      <h2 class="text-5xl m-0 font-normal">$100</h2>
+      <!-- <span class="text-bluegray-300 ml-1">/mo</span> -->
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Assessment of financial situation
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Identify short- and long-term goals
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Introduction to Shariah-compliant products
+    </div>
+    
+    <div class="flex align-items-center mb-5">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>  
+      </svg>
+      ETF-based Portfolio Construction
+    </div>
+    <div class="mt-auto w-full">
+      <button class="bg-bluegray-800 cursor-pointer text-white py-2 border-none w-full flex align-items-center px-3">
+        SELECT
+        <svg class="ml-auto" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+  
+  <div class="lg:w-23rem w-full lg:my-0 my-4 border-2 border-bluegray-800 p-5 lg:shadow-8">
+    <div class="pb-3 mb-4 border-bottom-1 border-bluegray-800">
+      <div class="text-xs text-bluegray-400 mb-2">STANDARD</div>
+      <div class="flex align-items-center">
+        <h2 class="text-5xl m-0 font-normal">$300</h2>
+        <!-- <span class="text-bluegray-300 ml-1">/mo</span> -->
       </div>
     </div>
-  </body>
-</html>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      BASIC package +
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Top portfolio holdings analysis
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Portfolio risk analysis
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Retirement income and cash flow projection
+    </div>
+    
+    <div class="mt-auto w-full">
+      <button class="bg-teal-500 cursor-pointer text-white py-2 border-none w-full flex align-items-center px-3">
+        SELECT
+        <svg class="ml-auto" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+        </svg>
+      </button>
+      <div class="text-xs mt-3 text-bluegray-600 line-height-2">MOST POPULAR</div>
+    </div>
+  </div>
+  
+  <div class="lg:w-23rem w-full border-2 lg:border-left-none border-bluegray-800 p-5">
+    <div class="pb-3 mb-4 border-bottom-1 border-bluegray-800">
+      <div class="text-xs text-bluegray-400 mb-2">PREMIUM</div>
+      <div class="flex align-items-center">
+        <h2 class="text-5xl m-0 font-normal">$500</h2>
+        <!-- <span class="text-bluegray-300 ml-1">/mo</span> -->
+      </div>
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      STANDARD package +
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Glide Path portfolio options
+    </div>
+    
+    <div class="flex align-items-center mb-2">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Tax-efficient investment strategies
+    </div>
+    
+    <div class="flex align-items-center mb-5">
+      <svg width="24" height="24" fill="none" class="text-green-500 mr-1" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5.75 12.8665L8.33995 16.4138C9.15171 17.5256 10.8179 17.504 11.6006 16.3715L18.25 6.75"></path>
+      </svg>
+      Ad-hoc projects and reports
+    </div>
+    
+    <div class="mt-auto w-full">
+      <button class="bg-bluegray-800 cursor-pointer text-white py-2 border-none w-full flex align-items-center px-3">
+        SELECT
+        <svg class="ml-auto" width="24" height="24" fill="none" viewBox="0 0 24 24">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13.75 6.75L19.25 12L13.75 17.25"></path>
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 12H4.75"></path>
+        </svg>
+      </button>
+      <div class="text-xs mt-3 text-bluegray-600 line-height-2"></div>
+    </div>
+  </div>
+</div>

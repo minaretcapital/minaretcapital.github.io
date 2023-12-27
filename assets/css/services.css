@@ -113,7 +113,7 @@ html {
   font-size: 2.2rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -131,7 +131,7 @@ html {
   font-size: 2.2rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  text-transform: uppercase;
+  text-transform: none;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@ html {
 
 .list-item span {
   font-size: 1.4rem;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .pricing-card:nth-child(1) .card-price,
@@ -219,7 +219,7 @@ html {
 .card-btn {
   width: 12rem;
   height: 3rem;
-  text-transform: uppercase;
+  text-transform: none;
   border-radius: 3rem;
   border: none;
   color: #fff;

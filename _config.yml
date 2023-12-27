@@ -20,7 +20,7 @@ author: Minaret Capital
 ###############################################
 
 navbar-links:
-  About Us: "aboutme"
+  About Us: "aboutus"
   Services: "services"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"

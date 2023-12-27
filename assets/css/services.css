@@ -29,11 +29,11 @@ html {
   height: 50rem;
   background: linear-gradient(to right, #1b2f54, #0f1f39);
   border-radius: 1.5rem 8rem 1.5rem 1.5rem;
-  box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: left;
+  align-items: center;
   cursor: pointer;
   position: relative;
 }

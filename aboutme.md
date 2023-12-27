@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About US
+title: About Us
 subtitle: Your Trusted Partner in Halal Wealth Building
 ---
 

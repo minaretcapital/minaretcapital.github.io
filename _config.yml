@@ -21,6 +21,7 @@ author: Minaret Capital
 
 navbar-links:
   About Us: "aboutme"
+  Services: "services"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

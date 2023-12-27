@@ -32,8 +32,8 @@ html {
   box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   cursor: pointer;
   position: relative;
 }
@@ -186,7 +186,7 @@ html {
 
 .list-item span {
   font-size: 1.4rem;
-  text-transform: uppercase;
+  text-transform: default;
 }
 
 .pricing-card:nth-child(1) .card-price,

@@ -21,3 +21,6 @@ Key Features of **Minaret Capital**:
 ---
 
 Embark on a journey of financial growth with **Minaret Capital**, where your prosperity is built on principles that reflect your values. Experience the difference of ethical financial guidance that goes beyond numbers.
+
+## Contact Us
+Reach out to us through email at capitalminaret@gmail.com!
